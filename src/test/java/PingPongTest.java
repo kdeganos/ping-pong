@@ -35,6 +35,18 @@ public void PingPong_countUpToGivenNumber_Array() {
   outputList.add(1);
   outputList.add(2);
   outputList.add("ping");
-  assertEquals(outputList, testPingPong.isPingPong(3));
+  outputList.add(4);
+  outputList.add("pong");
+  outputList.add("ping");
+  outputList.add(7);
+  outputList.add(8);
+  outputList.add("ping");
+  outputList.add("pong");
+  outputList.add(11);
+  outputList.add("ping");
+  outputList.add(13);
+  outputList.add(14);
+  outputList.add("pingpong");
+  assertEquals(outputList, testPingPong.isPingPong(15));
 }
 }
